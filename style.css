@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 2;
+    background-color: black;
+    opacity: 30%;
+}
+.wrap{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-width: 100%;
+    z-index: 3;
+}
+.box01{
+    width: 100%;
+    padding-bottom: 220px;
+    text-align: center;
+}
+.box02{
+    width: 100%;
+    padding-bottom: 55px;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 30px;
+    color: white;
+}
+.box03{
+    width: 100%;
+    padding-bottom: 73px;
+    text-align: center;
+}
+
+.font00 {font-family: "Noto Sans KR", sans-serif;}
+.font01 {font-family: "yg-jalnan", sans-serif;}
+.font02 {font-size: 18px; line-height:30px; color: white; font-weight: 600;}
+.font03 {font-size: 18px; line-height:30px; font-weight: 600;}
+.font04 {font-size: 23px;}
+.font05 {font-size: 12px; line-height: 17px; color: white;}
+
+.b01 {
+    background-image: url(img/bg01.png);
+    height: 932px;
+}
+.b01_01 {
+    text-align: center;
+    padding-top: 147px;
+}
+
+.b02 {
+    background-color: #00CF01;
+    height: 5336px;
+}
+.b02_01 {padding-top: 52px; text-align: center;}
+.b02_02 {padding-top: 14.7px; text-align: center;}
+.b02_03 {background-image: url(img/bg02.png); background-repeat: no-repeat; width: 392px; height: 604px; margin: 0 auto; display: flex; margin-top: 22px; position: relative;}
+.b02_04 {background-image: url(img/bg03.png); background-repeat: no-repeat; width: 392px; height: 604px; margin: 0 auto; display: flex; margin-top: 34px; position: relative;}
+.b02_05 {background-image: url(img/bg04.png); background-repeat: no-repeat; width: 392px; height: 604px; margin: 0 auto; display: flex; margin-top: 34px; position: relative;}
+.b02_06 {background-image: url(img/bg05.png); background-repeat: no-repeat; width: 392px; height: 604px; margin: 0 auto; display: flex; margin-top: 34px; position: relative;}
+.b02_07 {background-image: url(img/bg06.png); background-repeat: no-repeat; width: 392px; height: 604px; margin: 0 auto; display: flex; margin-top: 34px; position: relative;}
+.b02_08 {background-image: url(img/bg07.png); background-repeat: no-repeat; width: 392px; height: 604px; margin: 0 auto; display: flex; margin-top: 34px; position: relative;}
+.b02_09 {background-image: url(img/bg08.png); background-repeat: no-repeat; width: 392px; height: 604px; margin: 0 auto; display: flex; margin-top: 34px; position: relative;}
+.b02_10 {background-image: url(img/bg09.png); background-repeat: no-repeat; width: 392px; height: 604px; margin: 0 auto; display: flex; margin-top: 34px; position: relative;}
+
+.b02_03_01 {padding-top: 28px; margin-left: 52px; color: #FA5542;}
+.b02_04_01 {padding-top: 28px; margin-left: 52px; color: #F6D900;}
+.b02_05_01 {padding-top: 28px; margin-left: 52px; color: #4093FF;}
+.b02_06_01 {padding-top: 28px; margin-left: 52px; color: #934D98;}
+.b02_07_01 {padding-top: 28px; margin-left: 52px; color: #4D6280;}
+.b02_08_01 {padding-top: 28px; margin-left: 52px; color: #FFFFFF;}
+.b02_09_01 {padding-top: 28px; margin-left: 52px; color: #FB80C2;}
+.b02_10_01 {padding-top: 28px; margin-left: 52px; color: #3BF6FF;}
+
+.b02_03_02 {position: absolute; margin-top: 139px; margin-left: 110px;}
+.b02_04_02 {position: absolute; margin-top: 46px; margin-left: 94px;}
+.b02_05_02 {position: absolute; margin-top: 106px; margin-left: 64px;}
+.b02_06_02 {position: absolute; margin-top: 24px; margin-left: 116px;}
+.b02_07_02 {position: absolute; margin-top: 58px; margin-left: 64px;}
+.b02_08_02 {position: absolute; margin-top: 174px; margin-left: 140px;}
+.b02_09_02 {position: absolute; margin-top: 113px; margin-left: 116px;}
+.b02_10_02 {position: absolute; margin-top: 23px; margin-left: 98px;}
+
+.b02_03_03 {position: absolute; width: 258px; text-align: center; margin-top: 473px; margin-left: 67px;}
+.b02_04_03 {position: absolute; width: 258px; text-align: center; margin-top: 473px; margin-left: 67px;}
+.b02_05_03 {position: absolute; width: 325px; text-align: center; margin-top: 473px; margin-left: 34px;}
+.b02_06_03 {position: absolute; width: 341px; text-align: center; margin-top: 473px; margin-left: 29px;}
+.b02_07_03 {position: absolute; width: 349px; text-align: center; margin-top: 473px; margin-left: 22px;}
+.b02_08_03 {position: absolute; width: 345px; text-align: center; margin-top: 473px; margin-left: 24px;}
+.b02_09_03 {position: absolute; width: 234px; text-align: center; margin-top: 488px; margin-left: 79px;}
+.b02_10_03 {position: absolute; width: 345px; text-align: center; margin-top: 473px; margin-left: 24px;}
+
+.f01 {background-color: #E60012; height: 51px;}
+.f02 {background-color: black; height: 124px;}
+.f02_01 {padding-top: 15px; padding-left: 14px;}
+.f02_02 {padding-top: 19px; padding-left: 14px;}
